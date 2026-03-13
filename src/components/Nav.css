@@ -1,0 +1,23 @@
+.navbar{
+
+display:flex;
+gap:30px;
+padding:14px 30px;
+border-bottom:1px solid #e5e5e5;
+background:#fafafa;
+
+}
+
+.navlink{
+
+text-decoration:none;
+color:#333;
+font-size:14px;
+
+}
+
+.navlink:hover{
+
+color:black;
+
+}

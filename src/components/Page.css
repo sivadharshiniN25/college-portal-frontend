@@ -1,0 +1,18 @@
+.page{
+max-width:700px;
+line-height:1.7;
+}
+
+.page h1{
+margin-bottom:15px;
+}
+
+.page h2{
+margin-top:20px;
+margin-bottom:10px;
+}
+
+.page p{
+margin-bottom:10px;
+color:#4b5563;
+}

@@ -1,0 +1,12 @@
+[
+{"id":1,"name":"Arjun","course":"CSBS","roll":"24UGCBS001","duration":"2024-2028","reg":"710724244001"},
+{"id":2,"name":"Meera","course":"AI & DS","roll":"24UGADS002","duration":"2024-2028","reg":"710724244002"},
+{"id":3,"name":"Rohan","course":"CSE","roll":"24UGCSE003","duration":"2024-2028","reg":"710724244003"},
+{"id":4,"name":"Nisha","course":"ECE","roll":"24UGECE004","duration":"2024-2028","reg":"710724244004"},
+{"id":5,"name":"Karthik","course":"IT","roll":"24UGIT005","duration":"2024-2028","reg":"710724244005"},
+{"id":6,"name":"Divya","course":"EEE","roll":"24UGEEE006","duration":"2024-2028","reg":"710724244006"},
+{"id":7,"name":"Vikram","course":"MECH","roll":"24UGMECH007","duration":"2024-2028","reg":"710724244007"},
+{"id":8,"name":"Ananya","course":"CSE","roll":"24UGCSE008","duration":"2024-2028","reg":"710724244008"},
+{"id":9,"name":"Rahul","course":"AI & DS","roll":"24UGADS009","duration":"2024-2028","reg":"710724244009"},
+{"id":10,"name":"Sneha","course":"IT","roll":"24UGIT010","duration":"2024-2028","reg":"710724244010"}
+]

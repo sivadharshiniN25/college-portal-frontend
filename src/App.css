@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#e9edf5;
+color:#1f2937;
+overflow:hidden;
+}
+
+/* LAYOUT */
+
+.appLayout{
+display:flex;
+height:100vh;
+}
+
+.mainContent{
+flex:1;
+padding:40px 50px;
+overflow-y:auto;
+}
+
+/* HEADERS */
+
+h1{
+font-size:34px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+h2{
+font-size:22px;
+font-weight:600;
+}
+
+/* TOP BAR */
+
+.topbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+}
+
+/* SEARCH */
+
+.search{
+padding:12px 16px;
+width:240px;
+border-radius:12px;
+border:none;
+background:#eef2f9;
+
+box-shadow:
+inset 4px 4px 8px #c8ccd4,
+inset -4px -4px 8px #ffffff;
+}
+
+.search::placeholder{
+color:#6b7280;
+}
+
+/* BUTTON GROUP */
+
+.controls{
+margin-top:20px;
+margin-bottom:20px;
+display:flex;
+gap:12px;
+}
+
+button{
+padding:10px 18px;
+border:none;
+border-radius:12px;
+font-weight:500;
+cursor:pointer;
+background:#eef2f9;
+
+box-shadow:
+6px 6px 12px #c8ccd4,
+-6px -6px 12px #ffffff;
+
+transition:0.2s ease;
+}
+
+button:hover{
+transform:translateY(-2px);
+box-shadow:
+3px 3px 6px #c8ccd4,
+-3px -3px 6px #ffffff;
+}
+
+button:active{
+box-shadow:
+inset 3px 3px 6px #c8ccd4,
+inset -3px -3px 6px #ffffff;
+}
+
+.create{
+color:white;
+background:#4f46e5;
+box-shadow:none;
+}
+
+.create:hover{
+background:#4338ca;
+}
+
+/* COUNT */
+
+.count{
+margin-bottom:20px;
+font-weight:500;
+color:#6b7280;
+}

@@ -1,0 +1,32 @@
+.bg-blue{
+
+width:100%;
+border-collapse:collapse;
+
+background:#eef2f9;
+
+border-radius:14px;
+overflow:hidden;
+
+box-shadow:
+6px 6px 12px #c8ccd4,
+-6px -6px 12px #ffffff;
+
+}
+
+.bg-blue th{
+text-align:left;
+padding:14px;
+background:#e3e8f3;
+font-size:14px;
+}
+
+.bg-blue td{
+padding:14px;
+font-size:14px;
+border-top:1px solid #d7dbe4;
+}
+
+.bg-blue tr:hover{
+background:#f4f6fb;
+}

@@ -1,0 +1,26 @@
+.home{
+max-width:900px;
+}
+
+.home h1{
+margin-bottom:10px;
+}
+
+.homeCards{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.card{
+padding:25px;
+border-radius:15px;
+background:#e0e5ec;
+box-shadow:6px 6px 12px #c8ccd1,
+           -6px -6px 12px #ffffff;
+}
+
+.homeCards:hover{
+    transform:translateY(-4px);
+}

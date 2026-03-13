@@ -1,0 +1,122 @@
+.form-page{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:80vh;
+background:#e0e5ec;
+}
+
+/* CARD */
+
+.form-card{
+
+width:420px;
+padding:40px;
+
+background:#e0e5ec;
+
+border-radius:20px;
+
+box-shadow:
+8px 8px 16px #b8bcc3,
+-8px -8px 16px #ffffff;
+
+}
+
+/* TITLE */
+
+.form-card h1{
+
+margin-bottom:25px;
+text-align:center;
+
+font-family: "Poppins", sans-serif;
+font-weight:600;
+color:#2c2c2c;
+
+}
+
+/* INPUTS */
+
+.form-card input{
+
+width:100%;
+padding:14px;
+
+margin-bottom:18px;
+
+border:none;
+
+border-radius:12px;
+
+background:#e0e5ec;
+
+box-shadow:
+inset 4px 4px 8px #b8bcc3,
+inset -4px -4px 8px #ffffff;
+
+font-size:14px;
+
+}
+
+/* PLACEHOLDER */
+
+.form-card input::placeholder{
+color:#666;
+}
+
+/* INPUT FOCUS */
+
+.form-card input:focus{
+outline:none;
+box-shadow:
+inset 2px 2px 5px #b8bcc3,
+inset -2px -2px 5px #ffffff;
+}
+
+/* BUTTON */
+
+.form-card button{
+
+width:100%;
+padding:14px;
+
+border:none;
+
+border-radius:12px;
+
+background:#e0e5ec;
+
+font-weight:600;
+
+font-size:15px;
+
+cursor:pointer;
+
+box-shadow:
+6px 6px 12px #b8bcc3,
+-6px -6px 12px #ffffff;
+
+transition:0.2s;
+
+}
+
+/* BUTTON HOVER */
+
+.form-card button:hover{
+
+box-shadow:
+inset 4px 4px 8px #b8bcc3,
+inset -4px -4px 8px #ffffff;
+
+}
+
+/* BUTTON ACTIVE */
+
+.form-card button:active{
+
+box-shadow:
+inset 2px 2px 6px #b8bcc3,
+inset -2px -2px 6px #ffffff;
+
+}

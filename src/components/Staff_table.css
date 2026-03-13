@@ -1,0 +1,40 @@
+.bg-blue{
+
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:12px;
+overflow:hidden;
+border:1px solid #e6e4df;
+
+}
+
+.bg-blue th{
+
+text-align:left;
+padding:14px;
+background:#f1efea;
+font-weight:600;
+font-size:14px;
+
+}
+
+.bg-blue td{
+
+padding:14px;
+font-size:14px;
+border-top:1px solid #eee;
+
+}
+
+.bg-blue tr:nth-child(even){
+
+background:#faf9f7;
+
+}
+
+.bg-blue tr:hover{
+
+background:#f3f2ee;
+
+}
